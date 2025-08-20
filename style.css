@@ -108,6 +108,7 @@ color: black;
     border: none;
     border-bottom: 2px solid #BDBDBD;
     outline: none;
+    font-size: 20px;
 }
 
 .button{
