@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zen Kaku Gothic Antique";
+}
+
+.wrapper {
+   display: flex; 
+}
+
+.left {
+    background-image:url(img/bg-left.png) ;
+    width: 700px;
+    height: 100vh;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    padding: 0 150px;
+}
+
+.left .logo{
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+    /* margin-bottom: 60px; */
+
+}
+
+.left .logo2{
+    height: 357px;
+    width: 424px;
+    margin-bottom: 30px;
+
+}
+
+.left h3{
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left p{
+    color: #f5f5f5;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.right {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ width: 100%;
+}
+
+.right h3{
+    font-family: "Zen Kaku Gothic Antique";
+    color: #242424;
+    font-size: 35px;
+    margin-top: -100px;
+    text-align: center;
+    margin-top: 80px;
+
+
+}
+
+.right .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 100%;
+    background-color: #EEEEEE;
+} 
+
+.right .social{
+    display: flex;
+    width: 400px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.right .social-media a{
+     text-decoration: none; 
+    color: #616161;
+}
+
+.right .social-media span:hover{
+color: black;
+}
+
+.right form{
+    width: 500px;
+    margin-top: 40px;
+}
+
+.right form input{
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid #BDBDBD;
+    outline: none;
+}
+
+.button{
+     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px;
+}
+
+.button label{
+    position: relative;
+    margin-left:24px ;
+    font-size:20px;
+}
+
+.right .button input[type=checkbox]{
+    width: 20px;
+    position: absolute;
+    left: -24px;
+    top: -17px;
+
+}
+
+.button button{
+    border-radius: 30px;
+    width: 150px;
+    height: 56px;
+    background-color: #7b76f1;
+    border: none;
+    font-family: "Zen Kaku Gothic Antique";
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.sign-up{
+    margin-top: 60px;
+}
+
+.sign-up p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sign-up a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #424242;
+}
+
+.CHAT{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+
+
+
+
